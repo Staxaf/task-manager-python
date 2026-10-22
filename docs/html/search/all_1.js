@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['active_0',['ACTIVE',['../classapp_1_1enums_1_1_project_status.html#a208accd0a6b895edf224ef4bee473d5a',1,'app::enums::ProjectStatus']]],
+  ['and_20priority_20enums_1',['Status and priority enums',['../domain_model.html#rel_enums',1,'']]],
+  ['and_20relations_2',['Domain model and relations',['../index.html#domain',1,'']]],
+  ['api_3',['Task Management REST API',['../index.html',1,'']]],
+  ['app_4',['app',['../namespaceapp.html',1,'app'],['../group___application.html#gad298a89244e9e4e8bd9e929313eecea2',1,'app.main.app']]],
+  ['app_3a_3adatabase_5',['database',['../namespaceapp_1_1database.html',1,'app']]],
+  ['app_3a_3adeps_6',['deps',['../namespaceapp_1_1deps.html',1,'app']]],
+  ['app_3a_3aenums_7',['enums',['../namespaceapp_1_1enums.html',1,'app']]],
+  ['app_3a_3amain_8',['main',['../namespaceapp_1_1main.html',1,'app']]],
+  ['app_3a_3amodels_9',['models',['../namespaceapp_1_1models.html',1,'app']]],
+  ['app_3a_3arouters_10',['routers',['../namespaceapp_1_1routers.html',1,'app']]],
+  ['app_3a_3arouters_3a_3acomments_11',['comments',['../namespaceapp_1_1routers_1_1comments.html',1,'app::routers']]],
+  ['app_3a_3arouters_3a_3aprojects_12',['projects',['../namespaceapp_1_1routers_1_1projects.html',1,'app::routers']]],
+  ['app_3a_3arouters_3a_3atasks_13',['tasks',['../namespaceapp_1_1routers_1_1tasks.html',1,'app::routers']]],
+  ['app_3a_3arouters_3a_3ausers_14',['users',['../namespaceapp_1_1routers_1_1users.html',1,'app::routers']]],
+  ['app_3a_3aschemas_15',['schemas',['../namespaceapp_1_1schemas.html',1,'app']]],
+  ['application_20bootstrap_16',['Application bootstrap',['../group___application.html',1,'']]],
+  ['architecture_20overview_17',['Architecture overview',['../index.html#architecture',1,'']]],
+  ['archived_18',['ARCHIVED',['../classapp_1_1enums_1_1_project_status.html#ab2dc70f6e173ed37eed45f1b443cefe7',1,'app::enums::ProjectStatus']]],
+  ['assigned_5ftasks_19',['assigned_tasks',['../classapp_1_1models_1_1_user.html#afb3857eae7e0c271a73740a8f7917ddc',1,'app::models::User']]],
+  ['assignee_20',['assignee',['../classapp_1_1models_1_1_task.html#a4a368e34ba1de2b4473eb076b826ebeb',1,'app::models::Task']]],
+  ['assignee_5fid_21',['assignee_id',['../classapp_1_1models_1_1_task.html#afb45763cff49419be8487454cf64b3dd',1,'app.models.Task.assignee_id'],['../classapp_1_1schemas_1_1_create_task.html#a908b3ac4041ccd0b22ae2f6aea01bd23',1,'app.schemas.CreateTask.assignee_id'],['../classapp_1_1schemas_1_1_update_task.html#a32d76f285f0c3bfe60cdf988fc69a4bc',1,'app.schemas.UpdateTask.assignee_id'],['../classapp_1_1schemas_1_1_task_read.html#a106e7bad67d29764bf031b962e561408',1,'app.schemas.TaskRead.assignee_id']]],
+  ['author_22',['author',['../classapp_1_1models_1_1_comment.html#af0e3a8a176a9c7f2504b358e9b6fa441',1,'app::models::Comment']]],
+  ['author_5fid_23',['author_id',['../classapp_1_1models_1_1_comment.html#a2b07c0622c8473b888fed484aef8ec99',1,'app.models.Comment.author_id'],['../classapp_1_1schemas_1_1_create_comment.html#a33485beb90c86bf8db8dd8242b3d264d',1,'app.schemas.CreateComment.author_id'],['../classapp_1_1schemas_1_1_update_comment.html#ad79c812b5d34f37c4b1f3c474f5373c0',1,'app.schemas.UpdateComment.author_id'],['../classapp_1_1schemas_1_1_comment_read.html#a4b88ca5c5b62c4ab7a2632c7a5508c86',1,'app.schemas.CommentRead.author_id']]],
+  ['authored_5fcomments_24',['authored_comments',['../classapp_1_1models_1_1_user.html#a7dcbab69235b951f3bf9fa16952030b9',1,'app::models::User']]]
+];

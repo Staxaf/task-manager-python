@@ -1,0 +1,27 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,277,92,303"/>
+<area shape="rect" id="Node000001" href="$classapp_1_1schemas_1_1_comment_read.html" title="Public Comment representation returned by the API." alt="" coords="145,5,336,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="49,262,56,213,70,154,97,93,115,65,138,40,157,29,154,34,141,44,119,68,101,95,75,155,61,214,54,262"/>
+<area shape="rect" id="Node000002" href="$classapp_1_1schemas_1_1_create_comment.html" title="Request body for POST /tasks/{id}/comments." alt="" coords="141,55,340,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="52,262,61,223,78,176,103,129,119,108,138,89,158,79,155,83,141,94,123,112,107,132,83,178,66,224,57,263"/>
+<area shape="rect" id="Node000003" href="$classapp_1_1schemas_1_1_create_project.html" title="Request body for POST /projects." alt="" coords="149,104,332,130"/>
+<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="56,262,86,199,109,166,138,139,160,128,157,132,141,143,113,170,90,202,61,264"/>
+<area shape="rect" id="Node000004" href="$classapp_1_1schemas_1_1_create_task.html" title="Request body for POST /projects/{id}/tasks." alt="" coords="156,153,326,179"/>
+<area shape="poly" id="edge4_Node000000_Node000004" title=" " alt="" coords="64,263,95,224,116,204,138,188,164,178,161,182,141,192,119,208,99,228,68,266"/>
+<area shape="rect" id="Node000005" href="$classapp_1_1schemas_1_1_create_user.html" title="Request body for POST /users." alt="" coords="156,203,326,228"/>
+<area shape="poly" id="edge5_Node000000_Node000005" title=" " alt="" coords="81,267,139,237,174,227,170,231,141,242,84,271"/>
+<area shape="rect" id="Node000006" href="$classapp_1_1schemas_1_1_project_read.html" title="Public Project representation returned by the API." alt="" coords="153,252,328,278"/>
+<area shape="poly" id="edge6_Node000000_Node000006" title=" " alt="" coords="106,280,155,275,151,278,108,285"/>
+<area shape="rect" id="Node000007" href="$classapp_1_1schemas_1_1_task_read.html" title="Public Task representation returned by the API." alt="" coords="160,301,322,327"/>
+<area shape="poly" id="edge7_Node000000_Node000007" title=" " alt="" coords="106,295,162,302,157,306,108,300"/>
+<area shape="rect" id="Node000008" href="$classapp_1_1schemas_1_1_update_comment.html" title="Request body for PATCH /comments/{id}." alt="" coords="140,351,342,376"/>
+<area shape="poly" id="edge8_Node000000_Node000008" title=" " alt="" coords="83,309,141,337,175,349,170,351,139,342,84,314"/>
+<area shape="rect" id="Node000009" href="$classapp_1_1schemas_1_1_update_project.html" title="Request body for PATCH /projects/{id}." alt="" coords="148,400,334,426"/>
+<area shape="poly" id="edge9_Node000000_Node000009" title=" " alt="" coords="67,313,100,352,119,371,141,387,165,399,160,400,138,391,116,375,96,356,67,319"/>
+<area shape="rect" id="Node000010" href="$classapp_1_1schemas_1_1_update_task.html" title="Request body for PATCH /tasks/{id}." alt="" coords="154,449,328,475"/>
+<area shape="poly" id="edge10_Node000000_Node000010" title=" " alt="" coords="59,315,91,378,113,410,141,436,161,448,156,449,138,440,109,413,86,381,59,320"/>
+<area shape="rect" id="Node000011" href="$classapp_1_1schemas_1_1_update_user.html" title="Request body for PATCH /users/{id}." alt="" coords="154,499,328,524"/>
+<area shape="poly" id="edge11_Node000000_Node000011" title=" " alt="" coords="55,316,67,356,83,402,107,447,141,485,159,498,154,498,138,490,103,450,78,404,62,358,54,321"/>
+<area shape="rect" id="Node000012" href="$classapp_1_1schemas_1_1_user_read.html" title="Public User representation returned by the API." alt="" coords="160,548,322,574"/>
+<area shape="poly" id="edge12_Node000000_Node000012" title=" " alt="" coords="52,316,61,365,76,424,102,484,120,511,141,535,162,549,156,549,138,539,115,515,97,487,71,426,56,366,51,321"/>
+</map>

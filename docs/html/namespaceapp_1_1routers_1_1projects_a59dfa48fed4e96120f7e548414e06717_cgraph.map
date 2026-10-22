@@ -1,0 +1,5 @@
+<map id="app.routers.projects.list_project_tasks" name="app.routers.projects.list_project_tasks">
+<area shape="rect" id="Node000001" title="Lists all tasks belonging to a project." alt="" coords="5,5,163,46"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1projects.html#a5423a3ae96211e88b005486cf637b304" title=" " alt="" coords="211,5,351,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="163,23,198,25,192,26,163,28"/>
+</map>

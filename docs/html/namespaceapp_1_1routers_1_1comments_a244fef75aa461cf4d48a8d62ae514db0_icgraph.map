@@ -1,0 +1,9 @@
+<map id="app.routers.comments._get_comment_or_404" name="app.routers.comments._get_comment_or_404">
+<area shape="rect" id="Node000001" title=" " alt="" coords="248,71,403,111"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1comments.html#a6439acb4ea53900ae86f2207e339220b" title="Deletes a comment by UUID." alt="" coords="7,5,198,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="237,67,175,49,175,44,242,65"/>
+<area shape="rect" id="Node000003" href="$namespaceapp_1_1routers_1_1comments.html#acb62c36be84378d7dd3a514549e9adcd" title="Retrieves a single comment by UUID." alt="" coords="16,71,189,111"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="230,92,190,94,189,88,235,90"/>
+<area shape="rect" id="Node000004" href="$namespaceapp_1_1routers_1_1comments.html#a93d2b00274a5e529511ff7559ed00cc6" title="Partially updates a comment." alt="" coords="5,136,200,177"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="242,116,175,138,174,133,237,117"/>
+</map>

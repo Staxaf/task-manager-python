@@ -1,0 +1,21 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" title=" " alt="" coords="5,31,88,56"/>
+<area shape="rect" id="Node000001" href="$classapp_1_1models_1_1_comment.html" title="Text note belonging to exactly one Task." alt="" coords="136,104,285,130"/>
+<area shape="poly" id="edge19_Node000000_Node000001" title=" " alt="" coords="84,62,137,90,166,103,160,104,135,95,83,67"/>
+<area shape="rect" id="Node000003" href="$classapp_1_1models_1_1_project.html" title="Aggregate root that groups related Task instances." alt="" coords="144,153,277,179"/>
+<area shape="poly" id="edge20_Node000000_Node000003" title=" " alt="" coords="86,63,90,66,105,86,113,105,121,123,137,140,156,153,151,153,134,144,117,126,108,107,100,89,86,69,86,69"/>
+<area shape="rect" id="Node000005" href="$classapp_1_1models_1_1_task.html" title="Individual work item belonging to exactly one Project." alt="" coords="150,5,270,31"/>
+<area shape="poly" id="edge21_Node000000_Node000005" title=" " alt="" coords="102,32,152,26,148,29,104,37"/>
+<area shape="rect" id="Node000006" href="$classapp_1_1models_1_1_user.html" title="Person who can own projects, be assigned tasks, and author comments." alt="" coords="150,55,270,80"/>
+<area shape="poly" id="edge22_Node000000_Node000006" title=" " alt="" coords="103,49,152,57,147,60,104,54"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="22,80,71,106"/>
+<area shape="poly" id="edge23_Node000002_Node000001" title=" " alt="" coords="86,96,137,104,133,107,87,101"/>
+<area shape="poly" id="edge24_Node000002_Node000003" title=" " alt="" coords="84,111,137,140,166,153,160,153,135,145,83,116"/>
+<area shape="poly" id="edge25_Node000002_Node000005" title=" " alt="" coords="82,70,135,40,165,30,161,33,137,45,85,74"/>
+<area shape="poly" id="edge26_Node000002_Node000006" title=" " alt="" coords="85,84,152,75,148,79,87,89"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="23,129,70,155"/>
+<area shape="poly" id="edge27_Node000004_Node000001" title=" " alt="" coords="85,134,138,127,133,130,86,139"/>
+<area shape="poly" id="edge28_Node000004_Node000003" title=" " alt="" coords="86,145,146,155,141,158,86,150"/>
+<area shape="poly" id="edge29_Node000004_Node000005" title=" " alt="" coords="82,120,86,116,100,97,108,78,117,59,134,40,156,30,152,33,137,44,121,62,113,80,105,99,90,120,85,124"/>
+<area shape="poly" id="edge30_Node000004_Node000006" title=" " alt="" coords="82,119,135,89,165,80,161,82,137,94,85,124"/>
+</map>

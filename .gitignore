@@ -18,13 +18,6 @@ build/
 *.sqlite
 *.sqlite-journal
 
-# generated Doxygen HTML (keep docs/ directory)
-/docs/html
-/docs/latex
-/docs/xml
-/docs/man
-/docs/rtf
-
 # Logs
 logs
 *.log

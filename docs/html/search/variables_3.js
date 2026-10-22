@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['db_5fpath_0',['DB_PATH',['../namespaceapp_1_1database.html#a3eaf592815196c608a047b7ad0152f5e',1,'app::database']]],
+  ['description_1',['description',['../classapp_1_1models_1_1_project.html#a8e1dc775af64056cbe675aa4a8a68a95',1,'app.models.Project.description'],['../classapp_1_1models_1_1_task.html#acbb9f0a58e99671b444335e6dcba054a',1,'app.models.Task.description'],['../classapp_1_1schemas_1_1_create_project.html#a904bdb51efd0e031981fcba2818455c9',1,'app.schemas.CreateProject.description'],['../classapp_1_1schemas_1_1_update_project.html#a1e8cd6bf7d14445330bef640e5987766',1,'app.schemas.UpdateProject.description'],['../classapp_1_1schemas_1_1_create_task.html#abb67814d4271b4f3acdbab65a2f89002',1,'app.schemas.CreateTask.description'],['../classapp_1_1schemas_1_1_update_task.html#abfd125927b25013e5764bc7280d17af4',1,'app.schemas.UpdateTask.description']]],
+  ['done_2',['DONE',['../classapp_1_1enums_1_1_task_status.html#a9d6436aa87a5e88bef54d5c743680f8c',1,'app::enums::TaskStatus']]],
+  ['due_5fdate_3',['due_date',['../classapp_1_1models_1_1_task.html#ae6b089d81ce799621435085c33d6e5ab',1,'app.models.Task.due_date'],['../classapp_1_1schemas_1_1_create_task.html#a49634ae02736244b1f8c1f8ff8218ee3',1,'app.schemas.CreateTask.due_date'],['../classapp_1_1schemas_1_1_update_task.html#a9be65c6704adfb4516c570db345e9abd',1,'app.schemas.UpdateTask.due_date'],['../classapp_1_1schemas_1_1_task_read.html#ae71d00628b83bbda20298acc0d131dd7',1,'app.schemas.TaskRead.due_date']]]
+];

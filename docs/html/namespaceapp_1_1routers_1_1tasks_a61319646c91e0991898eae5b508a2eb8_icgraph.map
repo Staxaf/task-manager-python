@@ -1,0 +1,9 @@
+<map id="app.routers.tasks._get_task_or_404" name="app.routers.tasks._get_task_or_404">
+<area shape="rect" id="Node000001" title=" " alt="" coords="251,47,377,88"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1tasks.html#a5dcdd087634e629dcbfcbe494d42c8a4" title="Deletes a task by UUID." alt="" coords="7,5,201,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="233,50,162,34,162,29,238,48"/>
+<area shape="rect" id="Node000003" href="$namespaceapp_1_1routers_1_1tasks.html#af2a14d0e9bfe945bd3e6f7d21fdf2277" title="Retrieves a single task by UUID." alt="" coords="16,55,192,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="232,68,193,70,192,65,238,67"/>
+<area shape="rect" id="Node000004" href="$namespaceapp_1_1routers_1_1tasks.html#a1adba9c9809ba02405188a6533e157b3" title="Partially updates a task." alt="" coords="5,104,203,130"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="238,85,162,106,161,101,233,86"/>
+</map>

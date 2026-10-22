@@ -1,0 +1,5 @@
+<map id="app.schemas.UpdateProject" name="app.schemas.UpdateProject">
+<area shape="rect" id="Node000001" title="Request body for PATCH /projects/{id}." alt="" coords="5,79,192,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="55,5,142,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="100,45,101,80,96,77,97,48"/>
+</map>

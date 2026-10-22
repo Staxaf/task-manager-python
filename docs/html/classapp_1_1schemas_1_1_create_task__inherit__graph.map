@@ -1,0 +1,5 @@
+<map id="app.schemas.CreateTask" name="app.schemas.CreateTask">
+<area shape="rect" id="Node000001" title="Request body for POST /projects/{id}/tasks." alt="" coords="5,79,176,105"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="47,5,134,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="92,45,93,80,88,78,89,48"/>
+</map>

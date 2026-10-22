@@ -1,0 +1,5 @@
+<map id="app.routers.tasks.delete_task" name="app.routers.tasks.delete_task">
+<area shape="rect" id="Node000001" title="Deletes a task by UUID." alt="" coords="5,13,199,38"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1tasks.html#a61319646c91e0991898eae5b508a2eb8" title=" " alt="" coords="247,5,373,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="199,23,234,26,229,26,199,28"/>
+</map>

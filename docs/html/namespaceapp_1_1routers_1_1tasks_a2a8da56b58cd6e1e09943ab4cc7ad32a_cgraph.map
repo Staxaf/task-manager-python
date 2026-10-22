@@ -1,0 +1,5 @@
+<map id="app.routers.tasks.create_task_comment" name="app.routers.tasks.create_task_comment">
+<area shape="rect" id="Node000001" title="Creates a new comment under the given task." alt="" coords="5,5,168,46"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1tasks.html#a61319646c91e0991898eae5b508a2eb8" title=" " alt="" coords="216,5,342,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="168,23,203,25,198,26,168,28"/>
+</map>

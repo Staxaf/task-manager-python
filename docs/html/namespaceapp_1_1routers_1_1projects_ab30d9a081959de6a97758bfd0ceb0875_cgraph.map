@@ -1,0 +1,5 @@
+<map id="app.routers.projects.create_project_task" name="app.routers.projects.create_project_task">
+<area shape="rect" id="Node000001" title="Creates a new task under the given project." alt="" coords="5,5,182,46"/>
+<area shape="rect" id="Node000002" href="$namespaceapp_1_1routers_1_1projects.html#a5423a3ae96211e88b005486cf637b304" title=" " alt="" coords="230,5,370,46"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="182,23,216,25,211,26,182,28"/>
+</map>
