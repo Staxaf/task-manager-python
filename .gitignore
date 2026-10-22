@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Local Graphviz (micromamba) for Doxygen DOT graphs
+.graphviz/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# local SQLite database
+*.sqlite
+*.sqlite-journal
+
+# generated Doxygen HTML (keep docs/ directory)
+/docs/html
+/docs/latex
+/docs/xml
+/docs/man
+/docs/rtf
+
+# Logs
+logs
+*.log
+
+# OS
+.DS_Store
+
+# IDEs and editors
+/.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.local

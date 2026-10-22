@@ -1,0 +1,73 @@
+/**
+ * @mainpage Task Management REST API
+ *
+ * @brief Python FastAPI REST API for users, projects, tasks, and comments.
+ *
+ * @section intro Introduction
+ *
+ * Persistence uses SQLite through SQLModel. OpenAPI docs are at `/api/docs`.
+ *
+ * Domain:
+ * - **User** — owns projects, is assigned tasks, authors comments (optional FKs).
+ * - **Project** — groups tasks; deleting cascades to tasks and comments.
+ * - **Task** — belongs to one project; owns comments.
+ * - **Comment** — belongs to one task.
+ *
+ * @section architecture Architecture overview
+ *
+ * @image html architecture.svg "HTTP → FastAPI routers → SQLite" width=780px
+ *
+ * @section domain Domain model and relations
+ *
+ * See @ref domain_model.
+ *
+ * @image html project-task-relation.svg "Domain associations with fields" width=900px
+ *
+ * @section endpoints HTTP endpoints
+ *
+ * @subsection users_endpoints Users
+ * | Method | Path | Description |
+ * |--------|------|-------------|
+ * | POST   | /users | Create a user |
+ * | GET    | /users | List users |
+ * | GET    | /users/{id} | Get one user |
+ * | PATCH  | /users/{id} | Update a user |
+ * | DELETE | /users/{id} | Delete a user (FKs → null) |
+ * | GET    | /users/{id}/projects | Projects owned by user |
+ * | GET    | /users/{id}/tasks | Tasks assigned to user |
+ * | GET    | /users/{id}/comments | Comments authored by user |
+ *
+ * @subsection projects_endpoints Projects
+ * | Method | Path | Description |
+ * |--------|------|-------------|
+ * | POST   | /projects | Create a project (`owner_id` optional) |
+ * | GET    | /projects | List projects |
+ * | GET    | /projects/{id} | Get one project |
+ * | PATCH  | /projects/{id} | Update a project |
+ * | DELETE | /projects/{id} | Delete project + tasks + comments |
+ * | GET    | /projects/{id}/tasks | List tasks |
+ * | POST   | /projects/{id}/tasks | Create a task (`assignee_id` optional) |
+ *
+ * @subsection tasks_endpoints Tasks
+ * | Method | Path | Description |
+ * |--------|------|-------------|
+ * | GET    | /tasks | List all tasks |
+ * | GET    | /tasks/{id} | Get one task |
+ * | PATCH  | /tasks/{id} | Update a task |
+ * | DELETE | /tasks/{id} | Delete a task + comments |
+ * | GET    | /tasks/{id}/comments | List comments |
+ * | POST   | /tasks/{id}/comments | Create a comment (`author_id` optional) |
+ *
+ * @subsection comments_endpoints Comments
+ * | Method | Path | Description |
+ * |--------|------|-------------|
+ * | GET    | /comments | List all comments |
+ * | GET    | /comments/{id} | Get one comment |
+ * | PATCH  | /comments/{id} | Update a comment |
+ * | DELETE | /comments/{id} | Delete a comment |
+ *
+ * @section modules Documented modules
+ * - @ref Domain — @ref User, @ref Project, @ref Task, @ref Comment
+ * - @ref Users / @ref Projects / @ref Tasks / @ref Comments
+ * - @ref Application
+ */

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <rect width="900" height="320" fill="#fafafa"/>
+  <text x="450" y="26" text-anchor="middle" font-family="Helvetica,Arial" font-size="15" font-weight="bold">ERD — users / projects / tasks / comments</text>
+
+  <rect x="360" y="45" width="180" height="110" rx="6" fill="#fff" stroke="#8E44AD" stroke-width="1.5"/>
+  <rect x="360" y="45" width="180" height="26" fill="#F5E8F8" stroke="#8E44AD" stroke-width="1.5"/>
+  <text x="450" y="63" text-anchor="middle" font-family="Helvetica,Arial" font-size="12" font-weight="bold">users</text>
+  <text x="375" y="90" font-family="Helvetica,Arial" font-size="11">PK id</text>
+  <text x="375" y="108" font-family="Helvetica,Arial" font-size="11">name</text>
+  <text x="375" y="126" font-family="Helvetica,Arial" font-size="11">email (unique)</text>
+  <text x="375" y="144" font-family="Helvetica,Arial" font-size="11">created_at</text>
+
+  <rect x="30" y="190" width="180" height="110" rx="6" fill="#fff" stroke="#2980B9" stroke-width="1.5"/>
+  <rect x="30" y="190" width="180" height="26" fill="#E8F4FD" stroke="#2980B9" stroke-width="1.5"/>
+  <text x="120" y="208" text-anchor="middle" font-family="Helvetica,Arial" font-size="12" font-weight="bold">projects</text>
+  <text x="45" y="232" font-family="Helvetica,Arial" font-size="11">PK id · name · status</text>
+  <text x="45" y="250" font-family="Helvetica,Arial" font-size="11">FK owner_id → users</text>
+  <text x="45" y="268" font-family="Helvetica,Arial" font-size="11">created_at</text>
+  <text x="45" y="286" font-family="Helvetica,Arial" font-size="10" fill="#666">ON DELETE SET NULL</text>
+
+  <rect x="360" y="190" width="180" height="110" rx="6" fill="#fff" stroke="#1E8449" stroke-width="1.5"/>
+  <rect x="360" y="190" width="180" height="26" fill="#E8F8E8" stroke="#1E8449" stroke-width="1.5"/>
+  <text x="450" y="208" text-anchor="middle" font-family="Helvetica,Arial" font-size="12" font-weight="bold">tasks</text>
+  <text x="375" y="232" font-family="Helvetica,Arial" font-size="11">PK id · title · status</text>
+  <text x="375" y="250" font-family="Helvetica,Arial" font-size="11">FK project_id CASCADE</text>
+  <text x="375" y="268" font-family="Helvetica,Arial" font-size="11">FK assignee_id SET NULL</text>
+  <text x="375" y="286" font-family="Helvetica,Arial" font-size="11">due_date?</text>
+
+  <rect x="690" y="190" width="180" height="110" rx="6" fill="#fff" stroke="#D68910" stroke-width="1.5"/>
+  <rect x="690" y="190" width="180" height="26" fill="#FFF4E5" stroke="#D68910" stroke-width="1.5"/>
+  <text x="780" y="208" text-anchor="middle" font-family="Helvetica,Arial" font-size="12" font-weight="bold">comments</text>
+  <text x="705" y="232" font-family="Helvetica,Arial" font-size="11">PK id · body</text>
+  <text x="705" y="250" font-family="Helvetica,Arial" font-size="11">FK task_id CASCADE</text>
+  <text x="705" y="268" font-family="Helvetica,Arial" font-size="11">FK author_id SET NULL</text>
+  <text x="705" y="286" font-family="Helvetica,Arial" font-size="11">created_at</text>
+
+  <defs>
+    <marker id="e" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#555"/>
+    </marker>
+  </defs>
+  <line x1="400" y1="155" x2="160" y2="190" stroke="#8E44AD" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#e)"/>
+  <line x1="450" y1="155" x2="450" y2="190" stroke="#8E44AD" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#e)"/>
+  <line x1="500" y1="155" x2="760" y2="190" stroke="#8E44AD" stroke-width="1.3" stroke-dasharray="4 3" marker-end="url(#e)"/>
+  <line x1="210" y1="245" x2="360" y2="245" stroke="#555" stroke-width="1.5" marker-end="url(#e)"/>
+  <line x1="540" y1="245" x2="690" y2="245" stroke="#555" stroke-width="1.5" marker-end="url(#e)"/>
+</svg>

@@ -1,0 +1,84 @@
+/**
+ * @page domain_model Domain model relations
+ *
+ * @brief Project ↔ Task ↔ Comment ownership plus optional User links.
+ *
+ * @section rel_overview Overview
+ *
+ * Ownership chain (cascade delete):
+ * - @ref Project → many @ref Task → many @ref Comment
+ *
+ * Optional User links (`ON DELETE SET NULL`):
+ * - @ref User owns many @ref Project (`owner_id`)
+ * - @ref User is assigned many @ref Task (`assignee_id`)
+ * - @ref User authors many @ref Comment (`author_id`)
+ *
+ * @section rel_uml Object model
+ *
+ * @image html project-task-relation.svg "UML-style associations with fields" width=900px
+ *
+ * @section rel_diagram Entity-relationship diagram
+ *
+ * @image html erd.svg "SQLite tables with FK cascade / SET NULL" width=860px
+ *
+ * @section rel_lifecycle Lifecycle rules
+ *
+ * | Action | Effect |
+ * |--------|--------|
+ * | `POST /users` | Creates a User |
+ * | `POST /projects` with `owner_id` | Creates Project linked to User (404 if missing) |
+ * | `POST /projects/{id}/tasks` with `assignee_id` | Creates Task; optional assignee |
+ * | `POST /tasks/{id}/comments` with `author_id` | Creates Comment; optional author |
+ * | `DELETE /projects/{id}` | Removes Project, Tasks, Comments |
+ * | `DELETE /tasks/{id}` | Removes Task and Comments |
+ * | `DELETE /users/{id}` | Removes User; `owner_id` / `assignee_id` / `author_id` become null |
+ *
+ * @section rel_enums Status and priority enums
+ *
+ * - @ref ProjectStatus — `ACTIVE`, `COMPLETED`, `ARCHIVED`
+ * - @ref TaskStatus — `TODO`, `IN_PROGRESS`, `DONE`
+ * - @ref TaskPriority — `LOW`, `MEDIUM`, `HIGH`
+ */
+
+/**
+ * @defgroup Domain Domain model
+ * @brief Entities and enums that form the persistence model.
+ *
+ * Primary types: @ref User, @ref Project, @ref Task, @ref Comment,
+ * @ref ProjectStatus, @ref TaskStatus, @ref TaskPriority.
+ */
+
+/**
+ * @defgroup Users Users module
+ * @brief Router that owns User CRUD and related listings.
+ *
+ * Request schemas: @ref CreateUser, @ref UpdateUser.
+ */
+
+/**
+ * @defgroup Projects Projects module
+ * @brief Router that owns Project CRUD and nested Task creation.
+ *
+ * Request schemas: @ref CreateProject, @ref UpdateProject.
+ */
+
+/**
+ * @defgroup Tasks Tasks module
+ * @brief Router that owns Task listing/update/delete and nested Comment creation.
+ *
+ * Request schemas: @ref CreateTask, @ref UpdateTask.
+ */
+
+/**
+ * @defgroup Comments Comments module
+ * @brief Router that owns Comment listing, retrieval, update, and deletion.
+ *
+ * Request schemas: @ref CreateComment, @ref UpdateComment.
+ */
+
+/**
+ * @defgroup Application Application bootstrap
+ * @brief FastAPI app entry point and database setup.
+ *
+ * Files: `app/main.py`, `app/database.py`, `app/deps.py`.
+ */
